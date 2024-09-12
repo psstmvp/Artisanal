@@ -1,0 +1,17 @@
+.rating {
+    font-size: 38px;
+    margin-left: 10px; /* Adjust the size of the stars as needed */
+}
+
+.star {
+    display: inline-block;
+    margin-right: 5px; 
+    color: gold;/* Adjust the spacing between stars */
+}
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a border to separate products */
+    padding: 10px; /* Add some padding for spacing */
+  }

@@ -1,0 +1,189 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+/* Create a container for the  information */
+.product-container {
+  max-width: 50%; /* Adjust the width as needed */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(6, 115, 189, 0.5);
+  border-radius: 10px;
+
+}.product-container > * {
+  margin-bottom: 10px;
+}
+.product-image-container {
+  margin-right: 10px;
+}
+/* Style the product image */
+.product-image {
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 10px; /* Add rounded corners to the image */
+}
+/* Style the product details container */
+.product-details {
+  
+  padding: 10px;
+  flex:1; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style the product info container */
+.product-info {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+
+/* Style the product name */
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the product price */
+.product-price {
+  font-size: 18px;
+  color: #b71ccc; 
+  font-weight: bold;
+  margin-top: 5px;/* Change the color to your preference */
+}
+
+/* Style the quantity */
+.quantity {
+  font-size: 18px;
+  color: #777; /* Change the color to your preference */
+}
+
+/* Style the order status container */
+.order-status-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the order status */
+ /* Style the order status */
+ .order-status {
+  color: #2a14a4;
+  text-align: right;
+  margin-top: 5px;
+}
+/* Style the container for the button */
+.button-container {
+  text-align: right; /* Align the button to the right */
+  margin: 20px; /* Optional margin for spacing */
+}
+
+
+.rating-button,.cancel-button {
+    background-color: #1d4772;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ .rating-button,.cancel-button:hover {
+    background-color: #457db5;
+  }
+  
+  
+  /* Style the modal container */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style the modal content */
+.modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the buttons within the modal */
+.modal-content button {
+  background-color: #101b82;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #186bc5;
+}
+
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-textarea {
+            width: 100%;
+            height: 100px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-button {
+            background-color: #714ace;
+            text-align: right; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-button:hover {
+            background-color: #5d24a3;
+        }
+   
+
+
+
